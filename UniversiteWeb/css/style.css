@@ -1,0 +1,128 @@
+.footer2 {
+  margin-top: 10px;
+}
+
+.footer2 p {
+  display: inline-block;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 500;
+}
+
+.footer2 .social {
+  display: inline-block;
+  text-align: center;
+}
+
+.footer2 .social a .fab {
+  font-size: 20px;
+  margin-left: 10px;
+  color: black;
+}
+
+.footer2 .social a:hover .fab {
+  color: #636363;
+}
+
+.navbar {
+  height: 65px;
+}
+
+.navbar .navbar-brand {
+  width: 115px;
+}
+
+.navbar .collapse .navbar-nav .nav-link {
+  text-transform: uppercase;
+  font-weight: 600;
+  display: inline-block;
+  font-size: 13px;
+  color: white;
+}
+
+.navbar .collapse .navbar-nav .nav-link.active {
+  border-bottom: 2px solid red;
+}
+
+.navbar .collapse.show {
+  display: block;
+  z-index: 2;
+  padding: 30px;
+  background-color: white;
+}
+
+#slider .owl-carousel .item img {
+  max-height: 710px;
+}
+
+#slider .owl-carousel .owl-dots {
+  position: absolute;
+  bottom: 30px;
+  text-align: center;
+  width: 100%;
+  left: 0;
+}
+
+#slider .owl-carousel .owl-dots .owl-dot span {
+  width: 15px;
+  height: 15px;
+}
+
+#contact {
+  margin-top: 120px;
+}
+
+#contact .back {
+  margin-bottom: 30px;
+}
+
+#contact .back a {
+  text-decoration: none;
+  color: #414141;
+  font-weight: bold;
+}
+
+#contact .contact {
+  margin-top: 50px;
+}
+
+#contact .contact h3 {
+  font-family: 'Oleo Script Swash Caps', cursive;
+  display: inline-block;
+  border-bottom: 1px solid red;
+}
+
+#contact .contact .location {
+  margin-top: 50px;
+}
+
+#contact .contact .location p {
+  font-family: 'Roboto Mono', monospace;
+}
+
+#footer {
+  background-color: #d1cfcf;
+  padding: 20px;
+}
+
+#footer .copyright p {
+  margin-top: 70px;
+}
+
+#footer .contact .location p {
+  margin-top: 32px;
+}
+
+#footer .social {
+  text-align: center;
+}
+
+#footer .social a .fab {
+  font-size: 25px;
+  margin-left: 10px;
+  color: black;
+}
+
+#footer .social a:hover .fab {
+  color: #636363;
+}
+/*# sourceMappingURL=style.css.map */

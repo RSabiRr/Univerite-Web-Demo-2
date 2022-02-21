@@ -1,0 +1,151 @@
+
+.footer2{
+    margin-top: 10px;
+    p{
+        display: inline-block;
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 500;
+    }
+    .social{
+        display: inline-block;
+        text-align: center;
+        a{
+            .fab{
+                font-size: 20px;
+                margin-left: 10px;
+                color: black;
+            }
+        }
+        a:hover{
+            .fab{
+                color: rgb(99, 99, 99);
+            }
+        }
+    }
+}
+
+
+.navbar{
+    height: 65px;
+    .navbar-brand{
+        width: 115px;
+    }
+    .collapse{
+        
+        .navbar-nav{
+
+        
+            .nav-link{
+                text-transform: uppercase;
+                 font-weight: 600;
+                 display: inline-block;
+                 font-size: 13px;
+                 color: white;
+            }
+            // .nav-link:hover{
+            //     border-bottom: 2px solid red;
+            // }
+            .nav-link.active{
+                border-bottom: 2px solid red;
+            }
+        }
+    }
+
+    .collapse.show{
+        display: block;
+        z-index: 2;
+        padding: 30px;
+        background-color: white;
+
+    }
+ 
+}
+
+
+#slider{
+    .owl-carousel{
+        .item{
+            img{
+            max-height: 710px;
+            }
+        }
+
+        .owl-dots{
+            position: absolute;
+            bottom: 30px;
+            text-align: center;
+            width: 100%;
+            left: 0;
+            .owl-dot{
+                span{
+                    // background: red;
+                    width: 15px;
+                    height: 15px;
+                }
+            }
+        }
+    }
+}
+
+
+#contact{
+    margin-top: 120px;
+    .back{
+        margin-bottom: 30px;
+        a{
+            text-decoration: none;
+            color: rgb(65, 65, 65);
+            font-weight: bold;
+        }
+    }
+    .contact{
+        margin-top: 50px;
+        h3{
+            font-family: 'Oleo Script Swash Caps', cursive;
+            display: inline-block;
+            border-bottom: 1px solid red;
+        }
+        .location{
+            margin-top: 50px;
+            p{
+                font-family: 'Roboto Mono', monospace;
+            }
+        }
+    }
+}
+
+#footer{
+    background-color: rgb(209, 207, 207);
+    padding: 20px;
+    .copyright{
+        p{
+            margin-top: 70px;
+            
+        }
+       
+    }
+    .contact{
+        .location{
+            p{
+                margin-top: 32px;
+
+            }
+        }
+    }
+    .social{
+        text-align: center;
+        a{
+            .fab{
+                font-size: 25px;
+                margin-left: 10px;
+                color: black;
+            }
+        }
+        a:hover{
+            .fab{
+                color: rgb(99, 99, 99);
+            }
+        }
+        
+    }
+}
